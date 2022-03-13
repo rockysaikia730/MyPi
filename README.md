@@ -1,1 +1,40 @@
 # MyPi
+MyPi is a very simple yet powerful technique to control the mouse over IP using Raspberry pi. It is a over-engineered plug and play device which can convert any USB based Mouse(Wired or Wireless) to an IP Mouse. An IP Mouse is basically an Interent Protocol device which can connect to your PC over a WiFi connection and can control your device wirelessly in real time.
+
+## Features
+- Multi Platform(Windows/macOS) 
+- Simple UI 
+- Minimum Latency
+- It costs can be as low as Rs 1500(www.robu.in)
+
+## Required Hardware
+- Raspberry Pi with Raspian installed on it.
+- USB Mouse
+- WiFi Connection
+
+## DIY
+* Install the Server.py and Screen.py file in your Raspberry Pi and set it to execute at startup. 
+* Connect the USB Mouse to your Raspberry Pi.
+* Ensure both the Raspberry Pi and your computer is connected to the same WiFi.
+* Launch the MyPi.exe( or MyPi.app) in your computer.
+<img src='img/window.png' height=100>
+* Click on Connect to automatically connect to your Raspberry pi.
+* Now, Click on Activate to control your computer using the IP Mouse.
+
+Implementation using Python Scripts
+
+## Installation
+From source:
+```
+git clone https://github.com/rockysaikia730/MyPi
+cd MyPi
+```
+```
+pip install pyautogui, pynput
+pip install sockets
+pip install pyqt5
+```
+For conda:
+```
+conda install -c anaconda pyqt
+```
