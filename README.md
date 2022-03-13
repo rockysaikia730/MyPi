@@ -59,7 +59,8 @@ To Run the python file:
 ```
 python MyPi.py
 ```
-## Application in macOS
+# Executables
+## .app in macOS
 ```
 pip install pyinstaller
 ```
@@ -72,3 +73,11 @@ mkdir appfolder
 ```
 * Copy all the contents of dist/MyPi/ and paste it to appfolder
 * Rename appfolder to **MyPi.app**
+
+## .exe in Windows
+```
+pip install pyinstaller
+```
+```
+pyinstaller --onefile --windows --icon=logo.ico MyPi.py
+```
