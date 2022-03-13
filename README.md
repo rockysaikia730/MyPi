@@ -16,7 +16,7 @@ MyPi is a very simple yet powerful technique to control the mouse over IP using 
 * Install the Server.py and Screen.py file in your Raspberry Pi and set it to execute at startup. 
 * Connect the USB Mouse to your Raspberry Pi.
 * Ensure both the Raspberry Pi and your computer is connected to the same WiFi.
-* Launch the MyPi.exe( or MyPi.app) in your computer.
+* Launch the MyPi.exe (or MyPi.app) in your computer.
 <p align="center">
 <img src='img/window.png' height=300>
  </p>
