@@ -8,7 +8,7 @@ MyPi is a very simple yet powerful technique to control the mouse over IP using 
 - It costs can be as low as Rs 1500(www.robu.in)
 
 ## Required Hardware
-- Raspberry Pi with Raspian installed on it.
+- Raspberry Pi with Raspbian installed on it.
 - USB Mouse
 - WiFi Connection
 
@@ -59,7 +59,12 @@ To Run the python file:
 ```
 python MyPi.py
 ```
-# Executables
+## RaspberryPi Configuration
+
+Instead of decoding the raw data from the mouse we track the cursor movements and events in the RaspberryPi so as to map the mouse movement to cursor movement on the screen. To allow similar tracking of mouse clicks, we initiate a full screen blank window so that the mouse clicks don't interact with the Raspberry Pi Desktop.
+
+## Executables
+To run as standalone application
 ## .app in macOS
 ```
 pip install pyinstaller
