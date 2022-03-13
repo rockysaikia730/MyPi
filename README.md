@@ -98,7 +98,4 @@ Use pyinstaller to convert into .exe :
 pyinstaller --onefile --windows --icon=logo.ico MyPi.py
 ```
 
-## <div align="center">Contribute</div>
 
-
-<a href="https://github.com/rockysaikia730/MyPi/graphs/contributors"><img src="https://opencollective.com/ultralytics/contributors.svg?width=990" /></a>
