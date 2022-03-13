@@ -62,6 +62,16 @@ python MyPi.py
 ## RaspberryPi Configuration
 
 Instead of decoding the raw data from the mouse we track the cursor movements and events in the RaspberryPi so as to map the mouse movement to cursor movement on the screen. To allow similar tracking of mouse clicks, we initiate a full screen blank window so that the mouse clicks don't interact with the Raspberry Pi Desktop.
+To run the files manually on RaspberryPi:
+Load the Server.py and Screen.py on RaspberryPi. 
+- Terminal 1
+```
+python Server.py 
+```
+- Terminal 2
+```
+python Screen.py
+```
 
 ## Executables
 To run as standalone application
