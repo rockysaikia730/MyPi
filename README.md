@@ -38,3 +38,12 @@ For conda:
 ```
 conda install -c anaconda pyqt
 ```
+## Inference
+
+Sensitivity: The Default Sensitivity adjusts by upscaling/downscaling with respect to the Raspberry Pi Default Resolution.
+**Keep the Default Resolution of Raspberry Pi to 1920✕1080**
+The Sensitivity Can be changed by changing the following variables:
+```
+scale_height = int(device_height/max_height_device) #Along y-direction
+scale_width = int(device_width/max_width_device)    #Along x-direction
+```
