@@ -20,8 +20,8 @@ MyPi is a very simple yet powerful technique to control the mouse over IP using 
 <p align="center">
 <img src='img/window.png' height=300>
  </p>
-* Click on Connect to automatically connect to your Raspberry pi.
-* Now, Click on Activate to control your computer using the IP Mouse.
+- Click on Connect to automatically connect to your Raspberry pi.
+- Now, Click on Activate to control your computer using the IP Mouse.
 
 Implementation using Python Scripts
 
@@ -70,5 +70,5 @@ pyinstaller MyPi.spec
 ```
 mkdir appfolder
 ```
-*Copy all the contents of dist/MyPi/ and paste it to appfolder
-*Rename appfolder to **MyPi.app**
+* Copy all the contents of dist/MyPi/ and paste it to appfolder
+* Rename appfolder to **MyPi.app**
