@@ -47,3 +47,13 @@ The Sensitivity Can be changed by changing the following variables:
 scale_height = int(device_height/max_height_device) #Along y-direction
 scale_width = int(device_width/max_width_device)    #Along x-direction
 ```
+
+Latency: The Latency can be adjusted by the following method:
+**The Default Value of PAUSE for PyAutoGUI is 0.1. So, it is recommended to decrease the PAUSE value**
+```
+pyautogui.PAUSE=0.001
+```
+To Run the python file:
+```
+python MyPi.py
+```
