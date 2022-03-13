@@ -59,3 +59,16 @@ To Run the python file:
 ```
 python MyPi.py
 ```
+## Application in macOS
+```
+pip install pyinstaller
+```
+```
+pyinstaller --add-data '0.jpg:.' MyPi.py
+pyinstaller MyPi.spec
+```
+```
+mkdir appfolder
+```
+*Copy all the contents of dist/MyPi/ and paste it to appfolder
+*Rename appfolder to **MyPi.app**
