@@ -78,6 +78,7 @@ mkdir appfolder
 ```
 pip install pyinstaller
 ```
+Use pyinstaller to convert into .exe :
 ```
 pyinstaller --onefile --windows --icon=logo.ico MyPi.py
 ```
