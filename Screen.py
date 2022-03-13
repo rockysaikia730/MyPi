@@ -1,6 +1,6 @@
 from tkinter import *
 
-#Create an instance of tkinter frame
+#Create an instance of Tkinter frame
 win = Tk()
 
 #Set the geometry
