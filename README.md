@@ -5,7 +5,7 @@ MyPi is a very simple yet powerful technique to control the mouse over IP using 
 - Multi Platform(Windows/macOS) 
 - Simple UI 
 - Minimum Latency
-- It costs can be as low as Rs 1500(www.robu.in)
+- Its cost can be as low as Rs 1299(https://robu.in/product/raspberry-pi-zero-w/)
 
 ## Required Hardware
 - Raspberry Pi with Raspbian installed on it.
